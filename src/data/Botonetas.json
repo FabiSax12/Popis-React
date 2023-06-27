@@ -1,0 +1,16 @@
+{
+    "botonetas":[
+        {
+            "name": "Botoneta de Chocolate",
+            "price": "100",
+            "stock": "48",
+            "img" : "https://alimentosbest.com/wp-content/uploads/2020/03/botonetas15gr.png"
+        },
+        {
+            "name": "Botoneta de Maní",
+            "price": "100",
+            "stock": "0",
+            "img" : "https://alimentosbest.com/wp-content/uploads/2020/03/botonetasmani12pack.png"
+        }
+    ]
+}

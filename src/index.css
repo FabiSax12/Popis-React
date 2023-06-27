@@ -1,0 +1,18 @@
+:root{
+    --primary: #534d4d;
+    --secondary: #ef8354;
+    --third: #87bba2;
+    --text: rgb(220, 217, 217);
+}
+
+*{
+    /* color: darkblue; */
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #ffffffdc;
+    padding: 0 30px;
+}

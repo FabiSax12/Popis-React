@@ -1,0 +1,14 @@
+{
+    "Redes":[
+        {
+            "name": "WhatsApp",
+            "img": "WhatsApp.png",
+            "link": "https://wa.me/message/B5YGBMFC3PMVL1"
+        },
+        {
+            "name": "Instagram",
+            "img": "Instagram.png",
+            "link": "https://www.instagram.com/vargas_fabian04/"
+        }
+    ]
+}

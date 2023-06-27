@@ -1,0 +1,33 @@
+#contact_info {
+    background-color: var(--third);
+    border: none;
+    margin: 0;
+}
+
+.redes {
+    background-color: var(--primary);
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center space-around;
+}
+
+.redes_item {
+    width: 80px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes_img{
+    height: 60px;
+    width: auto;
+}
+
+.redes_name{
+    text-align: center;
+    align-items: center;
+    color: var(--third);
+}
