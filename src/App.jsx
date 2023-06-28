@@ -5,6 +5,7 @@ import Popis from "./components/Popis"
 import Botonetas from "./components/Botonetas"
 import Contact from "./components/Contact"
 import Pago from "./components/Pago"
+import Carrito from "./components/Carrito"
 
 const App = () => {
   return (
@@ -16,7 +17,10 @@ const App = () => {
         <Botonetas/>
       </div>
       <div className="grid_rigth-side">
-      <Pago/>
+        <div className="sticky_container">
+        <Carrito/>
+        <Pago/>
+        </div>
       </div>
     </main>
     <Contact/>

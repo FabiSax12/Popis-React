@@ -1,0 +1,26 @@
+.container-carrito {
+    text-align: center;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.carrito-counter {
+    margin: 10px auto;
+    padding: 5px 10px;
+    max-width: fit-content;
+    display: block;
+    color: var(--primary);
+    background-color: var(--third);
+    border-radius: 5px;
+}
+
+.inactive {
+    display: none;
+} 
+
+.amount {
+    color: var(--secondary);
+    font-weight: bold;
+}

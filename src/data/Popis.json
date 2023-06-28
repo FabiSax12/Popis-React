@@ -5,56 +5,72 @@
             "name": "Cereza",
             "price": "100",
             "stock": "48",
-            "img" : "https://api.ultimatevalorant.com/assets/popis/Cereza.png"
+            "img" : "https://api.ultimatevalorant.com/assets/popis/Cereza.png",
+            "amount": "1",
+            "display": "inactive"
         },
         {
             "id": "card_menta",
             "name": "Menta",
             "price": "100",
             "stock": "72",
-            "img" : "https://api.ultimatevalorant.com/assets/popis/Menta-clear.webp"
+            "img" : "https://api.ultimatevalorant.com/assets/popis/Menta-clear.webp",
+            "amount": "2",
+            "display": "active"
         },
         {
             "id": "card_pasas",
             "name": "Pasas",
             "price": "100",
             "stock": "48",
-            "img" : "https://api.ultimatevalorant.com/assets/popis/Ron.jpg"
+            "img" : "https://api.ultimatevalorant.com/assets/popis/Ron.jpg",
+            "amount": "1",
+            "display": "inactive"
         },
         {
             "id": "card_chocomani",
             "name": "Chocomaní",
             "price": "100",
             "stock": "0",
-            "img" : "https://api.ultimatevalorant.com/assets/popis/Chocomaní.jpg"
+            "img" : "https://api.ultimatevalorant.com/assets/popis/Chocomaní.jpg",
+            "amount": "1",
+            "display": "inactive"
         },
         {
             "id": "card_galleta",
             "name": "Galleta",
             "price": "100",
             "stock": "1",
-            "img" : "https://api.ultimatevalorant.com/assets/popis/Galleta.jpg"
+            "img" : "https://api.ultimatevalorant.com/assets/popis/Galleta.jpg",
+            "amount": "1",
+            "display": "inactive"
         },
         {
             "id": "card_guarana",
             "name": "Guaraná",
             "price": "100",
             "stock": "48",
-            "img" : "https://api.ultimatevalorant.com/assets/popis/Guaraná.webp"
+            "img" : "https://api.ultimatevalorant.com/assets/popis/Guaraná.webp",
+            "amount": "1",
+            "display": "inactive"
         },
         {
             "id": "card_sandia",
             "name": "Sandía",
             "price": "100",
             "stock": "0",
-            "img" : "https://api.ultimatevalorant.com/assets/popis/Sandía.jpg"
+            "img" : "https://api.ultimatevalorant.com/assets/popis/Sandía.jpg",
+            "amount": "1",
+            "display": "inactive"
         },
         {
             "id": "card_uvamix",
             "name": "UvaMix",
             "price": "100",
             "stock": "0",
-            "img" : "https://api.ultimatevalorant.com/assets/popis/UvaMix.jpg"
+            "img" : "https://api.ultimatevalorant.com/assets/popis/UvaMix.jpg",
+            "amount": "1",
+            "display": "inactive"
         }
     ]
 }
