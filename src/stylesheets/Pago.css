@@ -1,3 +1,8 @@
+.container__pedido {
+    position: sticky;
+    top: 40vh;
+}
+
 .form {
     max-width: 500px;
     height: 200px;
@@ -24,7 +29,8 @@
     width: 50%;
     height: 30px;
     margin: 10px;
-    
+    border: 2px solid var(--primary);
+    border-radius: 5px;
 }
 
 .form__inputs__input:focus {
@@ -43,4 +49,10 @@
     color: var(--primary);
     border: 1px solid transparent;
     border-radius: 10px;
+    cursor: pointer;
+    transition: .5s ease transform;
+}
+
+.form__btn-enviar:hover {
+    transform: scale(1.05);
 }

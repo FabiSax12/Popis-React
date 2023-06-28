@@ -4,15 +4,21 @@ import Header from "./components/Header"
 import Popis from "./components/Popis"
 import Botonetas from "./components/Botonetas"
 import Contact from "./components/Contact"
-import Carrito from "./components/Pago"
+import Pago from "./components/Pago"
 
 const App = () => {
   return (
     <>
     <Header/>
-    <Popis/>
-    <Botonetas/>
-    <Carrito/>
+    <main>
+      <div className="grid_left-side">
+        <Popis/>
+        <Botonetas/>
+      </div>
+      <div className="grid_rigth-side">
+      <Pago/>
+      </div>
+    </main>
     <Contact/>
     </>
   )

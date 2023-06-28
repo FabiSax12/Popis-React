@@ -1,0 +1,21 @@
+main {
+    padding: 0 30px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    column-gap: 10px;
+}
+
+.grid_left-side {
+    margin: 20px 0;
+    padding: 0 10px;
+    border: 2px solid rgba(169, 165, 165, 0.616);
+    border-radius: 10px;
+}
+
+.grid_rigth-side {
+    margin: 20px 0;
+    padding: 0 10px;
+    border: 2px solid rgba(169, 165, 165, 0.616);
+    border-radius: 10px;
+    position: relative;
+}
