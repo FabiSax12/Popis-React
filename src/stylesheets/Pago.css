@@ -49,9 +49,35 @@
     border: 1px solid transparent;
     border-radius: 10px;
     cursor: pointer;
-    transition: .5s ease transform;
+    position: relative;
+    overflow: hidden;
+    transition: .5s ease-out all;
+}
+
+.form__btn-enviar span{
+    position: relative;
+    z-index: 2;
+}
+
+.form__btn-enviar::before {
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 10px;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid var(--secondary);
+    position: absolute;
+    left: -191px;
+    top: 0px;
+    transition: .5s ease-out all;
 }
 
 .form__btn-enviar:hover {
     transform: scale(1.05);
+    color: #fff;
+}
+
+.form__btn-enviar:hover::before{
+    transform: scale(1.05);
+    left: 0px;
 }

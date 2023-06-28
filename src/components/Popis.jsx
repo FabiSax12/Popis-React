@@ -2,6 +2,7 @@ import React from "react"
 import { useState } from "react"
 import "../stylesheets/Popis.css"
 import data from "../data/Popis.json"
+import BotonContador from "./BotonContador";
 
 const Popis = () => {
   // Hooks
@@ -34,28 +35,24 @@ const Popis = () => {
             <h4 className="card_title">{i.name}</h4>
             <p className="card_text">${i.price}</p>
             <div className="contador">
-              <button 
+              <BotonContador
                 onClick={() => amountSubstract(i.name)} 
-                type="button" 
                 className="btn-substract" 
                 id={`${i.name}--1`}
-              >
-                -
-              </button>
+                mensage="-"
+              />
               <div 
                 className="amount-input" 
                 id={`amount-${i.name}`}
               >
                 {contador[i.name] || 0}
               </div>
-              <button 
+              <BotonContador
                 onClick={() => amountAdd(i.name)} 
-                type="button" 
                 className="btn-add" 
                 id={`${i.name}++1`}
-              >
-                +
-              </button>
+                mensage="+"
+              />
             </div>
           </div>
         ))}

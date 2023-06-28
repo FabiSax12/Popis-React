@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from "react"
 import "../stylesheets/Popis.css"
 import data from "../data/Botonetas.json"
+import BotonContador from './BotonContador'
 
 const Botonetas = () => {
   // Hooks
@@ -34,28 +35,24 @@ const Botonetas = () => {
             <h4 className="card_title">{i.name}</h4>
             <p className="card_text">${i.price}</p>
             <div className="contador">
-              <button 
-                  onClick={() => amountSubstract(i.name)} 
-                  type="button" 
-                  className="btn-substract" 
-                  id={`${i.name}--1`}
-                >
-                  -
-                </button>
-                <div 
-                  className="amount-input" 
-                  id={`amount-${i.name}`}
-                >
-                  {contador[i.name] || 0}
-                </div>
-                <button 
-                  onClick={() => amountAdd(i.name)} 
-                  type="button" 
-                  className="btn-add" 
-                  id={`${i.name}++1`}
-                >
-                  +
-                </button>
+              <BotonContador
+                onClick={() => amountSubstract(i.name)} 
+                className="btn-substract" 
+                id={`${i.name}--1`}
+                mensage="-"
+              />
+              <div 
+                className="amount-input" 
+                id={`amount-${i.name}`}
+              >
+                {contador[i.name] || 0}
+              </div>
+              <BotonContador
+                onClick={() => amountAdd(i.name)} 
+                className="btn-add" 
+                id={`${i.name}++1`}
+                mensage="+"
+              />
             </div>
           </div>
         

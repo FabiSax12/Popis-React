@@ -26,7 +26,7 @@ const Pago = () => {
           className="form__btn-enviar"
           id="botonPedido"
         >
-          Enviar pedido
+          <span>Enviar pedido</span> 
         </button>
       </form>
     </div>
