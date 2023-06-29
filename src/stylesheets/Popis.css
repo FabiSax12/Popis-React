@@ -1,3 +1,4 @@
+/* ----- ----- Estilos Generales ----- ----- */
 h3 {
     text-align: left;
     font-size: x-large;
@@ -16,6 +17,7 @@ h3 {
     place-content: center center;
 }
 
+/* ----- ----- Estilo de cada Producto ----- ----- */
 .card {
     border: 2px solid rgba(0, 0, 0, 0.175);
     border-radius: 15px;
@@ -79,12 +81,13 @@ img {
     border-radius: 3px;
 }
 
+/* ----- Pseudo Clases ----- */
 .card:hover {
     /* transform: scale(1.01); */
     box-shadow: .5px .5px 20px var(--primary);
 }
 
-/* Tamaños de Imágenes */
+/* ----- Tamaños de Imágenes -----*/
 #card_cereza {
     width: 60%;
 }

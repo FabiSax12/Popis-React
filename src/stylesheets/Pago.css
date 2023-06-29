@@ -1,3 +1,4 @@
+/* ----- ----- Estilos Generales ----- ----- */
 .container__pedido {
     margin: 50px 0;
 }
@@ -14,18 +15,21 @@
     text-align: center;
 }
 
+/* ----- ----- Inputs del Formulario ----- ----- */
 .form__inputs {
     width: 100%;
 }
 
 .form__inputs__label {
-    width: 30%;
+    display: block;
+    margin: auto;
+    width: 100%;
     font-size: 18px;
     font-weight: bold;
 }
 
 .form__inputs__input {
-    width: 50%;
+    width: 80%;
     height: 30px;
     margin: 10px;
     border: 2px solid var(--primary);
@@ -37,6 +41,7 @@
     border: 2px solid #005ed8;
 }
 
+/* ----- ----- Botones del Formulario ----- ----- */
 .form__btn-enviar {
     width: 160px;
     height: 40px;
@@ -51,12 +56,18 @@
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    transition: .5s ease-out all;
+    transition: .3s ease all;
 }
 
 .form__btn-enviar span{
     position: relative;
     z-index: 2;
+}
+
+/* ----- Pseudo Elementos/Clases ----- */
+.form__btn-enviar:hover {
+    transform: scale(1.05);
+    color: #fff;
 }
 
 .form__btn-enviar::before {
@@ -69,12 +80,7 @@
     position: absolute;
     left: -191px;
     top: 0px;
-    transition: .5s ease-out all;
-}
-
-.form__btn-enviar:hover {
-    transform: scale(1.05);
-    color: #fff;
+    transition: .3s ease-out all;
 }
 
 .form__btn-enviar:hover::before{

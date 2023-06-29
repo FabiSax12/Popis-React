@@ -1,3 +1,4 @@
+/* ----- ----- Estilos Generales ----- ----- */
 main {
     padding: 0 30px;
     display: grid;
@@ -18,11 +19,22 @@ main {
     padding: 0 10px;
     border: 2px solid rgba(169, 165, 165, 0.616);
     border-radius: 10px;
-    position: sticky;
-    top: 40vh;
 }
 
 .sticky_container {
     position: sticky;
     top: 20px;
+}
+
+/* ----- ----- Media Querys ----- ----- */
+
+@media screen and (max-width: 600px) {
+    main {
+        padding: 0 10px;
+        grid-template-columns: 100%;
+        column-gap: 0;
+    }
+    .sticky_container {
+        position: relative;
+    }
 }
