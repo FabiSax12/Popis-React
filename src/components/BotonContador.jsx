@@ -1,7 +1,7 @@
 import React from 'react'
 import "../stylesheets/BotonContador.css"
 
-const BotonContador = ( {onClick, className, id, mensage } ) => {
+const BotonContador = ( {onClick, className, id, message } ) => {
   return (
     <button 
         onClick={onClick} 
@@ -9,7 +9,7 @@ const BotonContador = ( {onClick, className, id, mensage } ) => {
         className={className} 
         id={id}
     >
-        {mensage}
+        {message}
     </button>
   )
 }

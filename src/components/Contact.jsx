@@ -5,14 +5,14 @@ import "../stylesheets/Contact.css"
 const Footer = () => {
   return (
     <>
-      <h3 id="contact_info">Información de Contacto</h3>
       <div className="redes">
-        {redes.Redes.map((i, idx) => (
-          <div key={idx} className="redes_item" id={i.name}>
-            <img src= {require(`../assets/${i.img}`)} alt="" className="redes_img"/>
-            <a href={i.link} target="_blank" className='redes_name'>{i.name}</a>
-          </div>
-        ))}
+        <div className="flex-container">
+          {redes.Redes.map((i, idx) => (
+            <a href={i.link} target="_blank">
+              <img src={require(`../assets/${i.img}`)} alt={i.name} className="redes_img" />
+            </a>
+          ))}
+        </div>
       </div>
     </>
   )

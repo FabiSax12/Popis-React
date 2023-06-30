@@ -7,18 +7,19 @@ import Carrito from "./Carrito";
 
 const Principal = () => {
   // Hooks
-  const [contador, setContador] = useState({});
+  const [cantidad, setCantidad] = useState({});
 
   // Funciones de Sumar y Restar 1
   const amountAdd = (name) => {
-    setContador((prevState) => ({
+    setCantidad((prevState) => ({
       ...prevState,
       [name]: Math.max((prevState[name] || 0) + 1, 0),
     }));
   };
+  console.log(cantidad)
 
   const amountSubstract = (name) => {
-    setContador((prevState) => ({
+    setCantidad((prevState) => ({
       ...prevState,
       [name]: Math.max((prevState[name] || 0) - 1, 0),
     }));
@@ -28,19 +29,19 @@ const Principal = () => {
     <main>
       <div className="grid_left-side">
         <Popis 
-          contador={contador} 
-          sumar={amountAdd} 
-          restar={amountSubstract} 
+          counter={cantidad} 
+          add={amountAdd} 
+          subtract={amountSubstract} 
         />
         <Botonetas
-          contador={contador}
-          sumar={amountAdd}
-          restar={amountSubstract}
+          counter={cantidad}
+          add={amountAdd}
+          subtract={amountSubstract}
         />
       </div>
       <div className="grid_rigth-side">
         <div className="sticky_container">
-          <Carrito contador={contador} />
+          <Carrito counter={cantidad} />
           <Pago />
         </div>
       </div>

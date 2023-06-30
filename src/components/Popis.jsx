@@ -1,15 +1,14 @@
 import React from "react";
-import { useState } from "react";
 import "../stylesheets/Popis.css";
 import data from "../data/Popis.json";
 import BotonContador from "./BotonContador";
 
-const Popis = ({ contador, sumar, restar }) => {
-  const amountAdd = (productName) => {
-    sumar(productName);
+const Popis = ({ counter, add, subtract }) => {
+  const amountAdd = (name) => {
+    add(name);
   };
-  const amountSubstract = (productName) => {
-    restar(productName);
+  const amountSubstract = (name) => {
+    subtract(name);
   };
 
   return (
@@ -29,16 +28,16 @@ const Popis = ({ contador, sumar, restar }) => {
                 onClick={() => amountSubstract(i.name)}
                 className="btn-contador substract"
                 id={`${i.name}--1`}
-                mensage="-"
+                message="-"
               />
               <div className="amount-input" id={`amount-${i.name}`}>
-                {contador[i.name] || 0}
+                {counter[i.name] || 0}
               </div>
               <BotonContador
                 onClick={() => amountAdd(i.name)}
                 className="btn-contador add"
                 id={`${i.name}++1`}
-                mensage="+"
+                message="+"
               />
             </div>
           </div>

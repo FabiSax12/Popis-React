@@ -1,33 +1,38 @@
-#contact_info {
-    background-color: var(--third);
-    border: none;
-    margin: 0;
-}
-
 .redes {
-    background-color: var(--primary);
+    width: 100%;
+    height: 100px;
+    background-color: var(--third);
     display: flex;
-    flex-wrap: wrap;
-    place-content: center space-around;
+    justify-content: center;
+    position: relative;
 }
 
-.redes_item {
-    width: 80px;
-    height: 120px;
+.flex-container {
+    width: max-content;
+    height: 100%;
+    padding: 0 10px;
+    background-color: var(--third); 
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .redes_img{
-    height: 60px;
+    height: 30px;
     width: auto;
+    margin: 0 10px;
+
 }
 
-.redes_name{
-    text-align: center;
-    align-items: center;
-    color: var(--third);
+.redes::after {
+    content: "";
+    height: 2px;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
 }

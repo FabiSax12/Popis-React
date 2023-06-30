@@ -9,6 +9,11 @@
             "name": "Instagram",
             "img": "Instagram.png",
             "link": "https://www.instagram.com/vargas_fabian04/"
+        },
+        {
+            "name": "Twitter",
+            "img": "Twitter.png",
+            "link": ""
         }
     ]
 }
