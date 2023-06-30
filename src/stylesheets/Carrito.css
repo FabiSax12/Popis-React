@@ -1,7 +1,7 @@
 .container-carrito {
     text-align: center;
     display: inline;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bold;
     text-transform: capitalize;
 }
@@ -12,7 +12,8 @@
     max-width: fit-content;
     display: block;
     color: var(--primary);
-    background-color: var(--third);
+    /* background-color: var(--third); */
+    border: 2px solid var(--third);
     border-radius: 5px;
 }
 

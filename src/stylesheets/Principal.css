@@ -16,7 +16,7 @@ main {
 
 .grid_rigth-side {
     margin: 20px 0;
-    padding: 0 10px;
+    padding: 0 10px 20px 10px;
     border: 2px solid rgba(169, 165, 165, 0.616);
     border-radius: 10px;
 }

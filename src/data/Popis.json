@@ -6,8 +6,7 @@
             "price": "100",
             "stock": "48",
             "img" : "https://api.ultimatevalorant.com/assets/popis/Cereza.png",
-            "amount": "1",
-            "display": "inactive"
+            "amount": "1"
         },
         {
             "id": "card_menta",
@@ -15,8 +14,7 @@
             "price": "100",
             "stock": "72",
             "img" : "https://api.ultimatevalorant.com/assets/popis/Menta-clear.webp",
-            "amount": "3",
-            "display": "active"
+            "amount": "3"
         },
         {
             "id": "card_pasas",
@@ -24,8 +22,7 @@
             "price": "100",
             "stock": "48",
             "img" : "https://api.ultimatevalorant.com/assets/popis/Ron.jpg",
-            "amount": "1",
-            "display": "inactive"
+            "amount": "1"
         },
         {
             "id": "card_chocomani",
@@ -33,8 +30,7 @@
             "price": "100",
             "stock": "0",
             "img" : "https://api.ultimatevalorant.com/assets/popis/Chocomaní.jpg",
-            "amount": "1",
-            "display": "inactive"
+            "amount": "1"
         },
         {
             "id": "card_galleta",
@@ -42,8 +38,7 @@
             "price": "100",
             "stock": "1",
             "img" : "https://api.ultimatevalorant.com/assets/popis/Galleta.jpg",
-            "amount": "1",
-            "display": "inactive"
+            "amount": "1"
         },
         {
             "id": "card_guarana",
@@ -51,8 +46,7 @@
             "price": "100",
             "stock": "48",
             "img" : "https://api.ultimatevalorant.com/assets/popis/Guaraná.webp",
-            "amount": "1",
-            "display": "inactive"
+            "amount": "1"
         },
         {
             "id": "card_sandia",
@@ -60,8 +54,7 @@
             "price": "100",
             "stock": "0",
             "img" : "https://api.ultimatevalorant.com/assets/popis/Sandía.jpg",
-            "amount": "1",
-            "display": "inactive"
+            "amount": "0"
         },
         {
             "id": "card_uvamix",
@@ -69,8 +62,7 @@
             "price": "100",
             "stock": "0",
             "img" : "https://api.ultimatevalorant.com/assets/popis/UvaMix.jpg",
-            "amount": "1",
-            "display": "inactive"
+            "amount": "0"
         }
     ]
 }
