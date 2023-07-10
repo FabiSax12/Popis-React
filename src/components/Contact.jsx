@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="redes">
         <div className="flex-container">
           {redes.Redes.map((i, idx) => (
-            <a href={i.link} target="_blank">
+            <a href={i.link} target="_blank" key={idx}>
               <img src={require(`../assets/${i.img}`)} alt={i.name} className="redes_img" />
             </a>
           ))}

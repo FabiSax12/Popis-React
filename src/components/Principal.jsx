@@ -16,7 +16,6 @@ const Principal = () => {
       [name]: Math.max((prevState[name] || 0) + 1, 0),
     }));
   };
-  console.log(cantidad)
 
   const amountSubstract = (name) => {
     setCantidad((prevState) => ({

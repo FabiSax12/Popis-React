@@ -7,9 +7,9 @@ import Principal from "./components/Principal"
 const App = () => {
   return (
     <>
-    <Header/>
-    <Principal/>
-    <Contact/>
+      <Header/>
+      <Principal/>
+      <Contact/>
     </>
   )
 }

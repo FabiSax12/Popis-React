@@ -6,16 +6,16 @@ const Pago = () => {
     <div className='container__pedido'>
       <h3>Realizar pedido</h3>
       <form className='form'>
-        <div class="form__inputs">
-          <div class="form__inputs__nombre">
-            <label for="nombre" className='form__inputs__label'>Nombre:</label>
-            <input type="text" class="form__inputs__input" id="nombre" />
+        <div className="form__inputs">
+          <div className="form__inputs__nombre">
+            <label htmlFor="nombre" className='form__inputs__label'>Nombre:</label>
+            <input type="text" className="form__inputs__input" id="nombre" />
           </div>
 
-          <div class="form__inputs__metodo-pago">
-            <label for="pago" className='form__inputs__label'>Forma de pago:</label>
-            <select class="form__inputs__input" id="pago">
-              <option selected>Escoja un método de pago</option>
+          <div className="form__inputs__metodo-pago">
+            <label htmlFor="pago" className='form__inputs__label'>Forma de pago:</label>
+            <select className="form__inputs__input" id="pago">
+              <option value>Escoja un método de pago</option>
               <option value="Efectivo">Efectivo</option>
               <option value="SINPE móvil">SINPE móvil</option>
             </select>
