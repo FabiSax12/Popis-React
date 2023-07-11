@@ -41,7 +41,7 @@ const Principal = () => {
       <div className="grid_rigth-side">
         <div className="sticky_container">
           <Carrito counter={cantidad} />
-          <Pago />
+          <Pago counter={cantidad}/>
         </div>
       </div>
     </main>

@@ -1,7 +1,7 @@
-import React from 'react'
 import "../stylesheets/Pago.css"
+import { enviarPedido } from "../logic/enviarPedido"
 
-const Pago = () => {
+const Pago = ({counter}) => {
   return (
     <div className='container__pedido'>
       <h3>Realizar pedido</h3>
@@ -25,9 +25,11 @@ const Pago = () => {
           type="button"
           className="form__btn-enviar"
           id="botonPedido"
+          onClick={() => enviarPedido(counter, "Fabián", "Efectivo")}
         >
           <span>Enviar pedido</span> 
         </button>
+        <p className="form__error">Porfavor introduzca un nombre y un método de pago</p>
       </form>
     </div>
   )

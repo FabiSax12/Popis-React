@@ -5,7 +5,7 @@
 
 .form {
     max-width: 500px;
-    height: 200px;
+    height: max-content;
     margin: 20px auto;
     display: flex;
     flex-direction: row;
@@ -13,6 +13,20 @@
     align-items: center;
     place-content: center;
     text-align: center;
+}
+
+.form__error {
+    display: none;
+    margin: 20px;
+    padding: 10px;
+    color: red;
+    background-color: #ec61615c;
+    border: 2px solid #ff0000;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.form__error.active {
+    display: block;
 }
 
 /* ----- ----- Inputs del Formulario ----- ----- */
@@ -29,9 +43,10 @@
 }
 
 .form__inputs__input {
-    width: 80%;
+    width: calc(80% - 15px);
     height: 30px;
     margin: 10px;
+    padding-left: 15px;
     border: 2px solid var(--primary);
     border-radius: 5px;
 }

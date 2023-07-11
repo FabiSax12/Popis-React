@@ -2,10 +2,10 @@ import React from 'react'
 import redes from "../data/Redes.json"
 import "../stylesheets/Contact.css"
 
-const Footer = () => {
+const Contact = () => {
   return (
     <>
-      <div className="redes">
+      <footer  className="redes">
         <div className="flex-container">
           {redes.Redes.map((i, idx) => (
             <a href={i.link} target="_blank" key={idx}>
@@ -13,9 +13,9 @@ const Footer = () => {
             </a>
           ))}
         </div>
-      </div>
+      </footer>
     </>
   )
 }
 
-export default Footer
+export default Contact
